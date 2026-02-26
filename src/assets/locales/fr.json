@@ -1,0 +1,25 @@
+{
+  "cart": {
+    "add": "Ajouter au panier",
+    "items": "Aucun article dans le panier | Un article dans le panier |{count} articles dans le panier"
+  },
+  "language": {
+    "english": "Anglais",
+    "french": "Français"
+  },
+  "product": {
+    "priceLabel": "Prix:{amount}"
+  },
+  "product1": {
+    "description": "Casque sans fil supra-auriculaire avec basses profondes et jusqu'à 30 heures d'autonomie.",
+    "title": "Casque sans fil à réduction de bruit"
+  },
+  "product2": {
+    "description": "Casque audio léger de qualité studio, conçu pour le confort et un son cristallin.",
+    "title": "Casque de studio Bluetooth haut de gamme"
+  },
+  "product3": {
+    "description": "Écouteurs tour de cou flexibles conçus pour les entraînements avec une connexion Bluetooth stable.",
+    "title": "Écouteurs sans fil tour de cou pour le sport"
+  }
+}

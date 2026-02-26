@@ -1,0 +1,26 @@
+
+{
+  "product": {
+    "priceLabel": "Price: {amount}"
+  },
+  "product1": {
+    "title": "Noise-Cancelling Wireless Headphones",
+    "description": "Over-ear wireless headphones with deep bass and up to 30 hours of battery life."
+  },
+  "product2": {
+    "title": "Premium Bluetooth Studio Headphones",
+    "description": "Lightweight studio-quality headphones designed for comfort and crystal clear sound."
+  },
+  "product3": {
+    "title": "Sport Wireless Neckband Earphones",
+    "description": "Flexible neckband earphones built for workouts with stable Bluetooth connection."
+  },
+  "cart": {
+    "add": "Add to cart",
+    "items": "No items in cart | One item in cart | {count} items in cart"
+  },
+  "language": {
+    "english": "English",
+    "french": "French"
+  }
+}
