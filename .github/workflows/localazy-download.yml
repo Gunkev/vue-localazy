@@ -19,7 +19,7 @@ jobs:
         run: npm install
 
       - name: Download translations
-        run: npx localazy/cli download
+        run: npx @localazy/cli download
         env:
           LOCALAZY_READ_KEY: ${{ secrets.LOCALAZY_READ_KEY }}
           LOCALAZY_WRITE_KEY: ${{ secrets.LOCALAZY_WRITE_KEY }}

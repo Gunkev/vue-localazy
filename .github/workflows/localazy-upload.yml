@@ -20,7 +20,7 @@ jobs:
         run: npm install
 
       - name: Upload translations
-        run: npx localazy/cli upload
+        run: npx @localazy/cli upload
 
         env:
           LOCALAZY_READ_KEY: ${{ secrets.LOCALAZY_READ_KEY }}

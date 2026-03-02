@@ -23,6 +23,6 @@
     "french": "French"
   },
   "debug": {
-    "ciTest": "You uploaded from GitHub Actions"
+    "ciTest": "Uploaded from GitHub Actions"
   }
 }
