@@ -1,6 +1,6 @@
 {
-  "readKey": "READ_KEY",
-  "writeKey": "WRITE_KEY",
+  "readKey": "${LOCALAZY_READ_KEY}",
+  "writeKey": "${LOCALAZY_WRITE_KEY}",
 
   "upload": {
     "type": "json",
