@@ -1,0 +1,33 @@
+name: Localazy Download
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Download translations
+        run: npx localazy download
+        env:
+          LOCALAZY_READ_KEY: ${{ secrets.LOCALAZY_READ_KEY }}
+          LOCALAZY_WRITE_KEY: ${{ secrets.LOCALAZY_WRITE_KEY }}
+
+      - name: Commit updated translations
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/assets/locales/*.json
+          git diff --staged --quiet || git commit -m "chore(i18n): download latest translations"
+          git push

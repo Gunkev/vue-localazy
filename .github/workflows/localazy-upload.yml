@@ -1,0 +1,27 @@
+name: Localazy Upload
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "src/assets/locales/en.json"
+      - "localazy.json"
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Upload translations
+        run: npx localazy upload
+
+        env:
+          LOCALAZY_READ_KEY: ${{ secrets.LOCALAZY_READ_KEY }}
+          LOCALAZY_WRITE_KEY: ${{ secrets.LOCALAZY_WRITE_KEY }}

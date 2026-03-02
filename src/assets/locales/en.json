@@ -1,4 +1,3 @@
-
 {
   "product": {
     "priceLabel": "Price: {amount}"
@@ -22,5 +21,8 @@
   "language": {
     "english": "English",
     "french": "French"
+  },
+  "debug": {
+    "ciTest": "Uploaded from GitHub Actions"
   }
 }
