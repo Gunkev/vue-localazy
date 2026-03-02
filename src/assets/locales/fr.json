@@ -3,6 +3,9 @@
     "add": "Ajouter au panier",
     "items": "Aucun article dans le panier | Un article dans le panier |{count} articles dans le panier"
   },
+  "debug": {
+    "ciTest": "Téléchargé depuis GitHub Actions"
+  },
   "language": {
     "english": "Anglais",
     "french": "Français"

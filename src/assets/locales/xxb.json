@@ -3,6 +3,9 @@
     "add": "Ådd Tö Çårt Ñøw",
     "items": "Ñø ïtëmš ïñ çårt | Øñë ïtëm ïñ çårt | {count} ïtëmš ïñ çårt"
   },
+  "debug": {
+    "ciTest": "Ūploadëd frõm GïtHüb Åçtïõñs"
+  },
   "language": {
     "english": "Ëñglïšh Låñgüågë",
     "french": "Frëñçh Låñgüågë"
