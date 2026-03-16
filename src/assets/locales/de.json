@@ -1,0 +1,28 @@
+{
+  "cart": {
+    "add": "In den Warenkorb legen",
+    "items": "Keine Artikel im Warenkorb | Ein Artikel im Warenkorb |{count} Artikel im Warenkorb"
+  },
+  "debug": {
+    "ciTest": "Hochgeladen von GitHub Actions"
+  },
+  "language": {
+    "english": "Englisch",
+    "french": "Französisch"
+  },
+  "product": {
+    "priceLabel": "Preis:{amount}"
+  },
+  "product1": {
+    "description": "Kabelloser Over-Ear-Kopfhörer mit tiefem Bass und bis zu 30 Stunden Akkulaufzeit.",
+    "title": "Kabellose Kopfhörer mit Geräuschunterdrückung"
+  },
+  "product2": {
+    "description": "Leichte Kopfhörer in Studioqualität, die für Komfort und kristallklaren Klang entwickelt wurden.",
+    "title": "Premium-Bluetooth-Studio-Kopfhörer"
+  },
+  "product3": {
+    "description": "Flexible Nackenbügel-Ohrhörer, die für Workouts entwickelt wurden und über eine stabile Bluetooth-Verbindung verfügen.",
+    "title": "Kabellose Sport-Nackenbügel-Kopfhörer"
+  }
+}

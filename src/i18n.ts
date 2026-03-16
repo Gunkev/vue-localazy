@@ -2,7 +2,7 @@
 import { createI18n } from "vue-i18n"
 import en from "./assets/locales/en.json"
 import fr from "./assets/locales/fr.json"
-import xxb from "./assets/locales/xxb.json"
+import de from "./assets/locales/de.json"
 
 const savedLocale = localStorage.getItem("locale") || "en"
 
@@ -12,6 +12,6 @@ export const i18n = createI18n({
   messages: {
     en,
     fr,
-    xxb
+    de
   }
 })

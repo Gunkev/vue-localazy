@@ -15,8 +15,8 @@ function changeLanguage(lang: string) {
         <button @click="changeLanguage('fr')">
             French
         </button>
-        <button @click="changeLanguage('xxb')">
-            Pseudo
+        <button @click="changeLanguage('de')">
+            German
         </button>
     </div>
 </template>
