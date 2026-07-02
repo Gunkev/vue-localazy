@@ -4,16 +4,13 @@ This project is a small Vue 3 application demonstrating how to implement interna
 
 The application displays a simple product page with multiple languages. Users can switch languages at runtime, and translations can be uploaded and downloaded automatically.
 
-The project also includes a **pseudo-locale** for testing layouts before real translations are available.
-
 ---
 
 ## Features
 
 - Vue 3 + TypeScript + Vite
 - Runtime language switching
-- English and French translations
-- Pseudo-locale for layout testing
+- English, French and German translations
 - Localazy translation integration
 - Automated translation sync ready for CI
 
@@ -53,13 +50,13 @@ This project uses the following tools:
 Clone the repository:
 
 ```bash
-git clone https://github.com/Gunkev/vue-localazy.git
+git clone https://github.com/Gunkev/vue-localazy-demo.git
 ```
 
 Enter the project folder:
 
 ```bash
-cd vue-localazy
+cd vue-localazy-demo
 ```
 
 Install dependencies:
@@ -93,7 +90,7 @@ src/
 ├── assets/locales/
 │   ├── en.json
 │   ├── fr.json
-│   └── xxb.json
+│   └── de.json
 │
 ├── components/
 │
@@ -116,7 +113,7 @@ Example files:
 ```
 en.json
 fr.json
-pseudo.json
+de.json
 ```
 
 English (`en.json`) is the source language.

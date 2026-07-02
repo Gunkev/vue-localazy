@@ -7,6 +7,7 @@ import de from "./assets/locales/de.json"
 const savedLocale = localStorage.getItem("locale") || "en"
 
 export const i18n = createI18n({
+  legacy: false,
   locale: savedLocale,
   fallbackLocale: "en",
   messages: {
