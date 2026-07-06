@@ -125,13 +125,13 @@ English (`en.json`) is the source language.
 Upload source translations:
 
 ```bash
-npx localazy upload
+npm run localazy:upload
 ```
 
 Download translations:
 
 ```bash
-npx localazy download
+npm run localazy:download
 ```
 
 Localazy keys are stored in:

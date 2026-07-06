@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useI18n } from "vue-i18n"
 
-const { locale } = useI18n()
+const { locale, t } = useI18n()
 function changeLanguage(lang: string) {
     locale.value = lang
     localStorage.setItem("locale", lang)
@@ -10,13 +10,13 @@ function changeLanguage(lang: string) {
 <template>
     <div>
         <button @click="changeLanguage('en')">
-            English
+            {{ t("language.english") }}
         </button>
         <button @click="changeLanguage('fr')">
-            French
+            {{ t("language.french") }}
         </button>
         <button @click="changeLanguage('de')">
-            German
+            {{ t("language.german") }}
         </button>
     </div>
 </template>

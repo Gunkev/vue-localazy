@@ -1,28 +1,29 @@
 {
   "cart": {
-    "add": "In den Warenkorb legen",
-    "items": "Keine Artikel im Warenkorb | Ein Artikel im Warenkorb |{count} Artikel im Warenkorb"
+    "add": "In den Warenkorb",
+    "items": "Keine Artikel im Warenkorb | Ein Artikel im Warenkorb | {count} Artikel im Warenkorb"
   },
   "debug": {
-    "ciTest": "Hochgeladen von GitHub Actions"
+    "ciTest": "Über GitHub Actions hochgeladen"
   },
   "language": {
     "english": "Englisch",
-    "french": "Französisch"
+    "french": "Französisch",
+    "german": "Deutsch"
   },
   "product": {
-    "priceLabel": "Preis:{amount}"
+    "priceLabel": "Preis: {amount}"
   },
   "product1": {
-    "description": "Kabelloser Over-Ear-Kopfhörer mit tiefem Bass und bis zu 30 Stunden Akkulaufzeit.",
-    "title": "Kabellose Kopfhörer mit Geräuschunterdrückung"
+    "description": "Kabellose Over-Ear-Kopfhörer mit tiefem Bass und einer Akkulaufzeit von bis zu 30 Stunden.",
+    "title": "Aktive Geräuschunterdrückung – kabellose Kopfhörer"
   },
   "product2": {
-    "description": "Leichte Kopfhörer in Studioqualität, die für Komfort und kristallklaren Klang entwickelt wurden.",
-    "title": "Premium-Bluetooth-Studio-Kopfhörer"
+    "description": "Ultraleichte Kopfhörer mit Klang in Studioqualität, ergonomisch für hohen Tragekomfort entwickelt und mit kristallklarem Klang.",
+    "title": "Premium Bluetooth Studiokopfhörer"
   },
   "product3": {
-    "description": "Flexible Nackenbügel-Ohrhörer, die für Workouts entwickelt wurden und über eine stabile Bluetooth-Verbindung verfügen.",
-    "title": "Kabellose Sport-Nackenbügel-Kopfhörer"
+    "description": "Flexible Nackenbügel-Ohrhörer für Sport und Training mit stabiler Bluetooth-Verbindung.",
+    "title": "Sport Bluetooth In-Ear-Kopfhörer mit Nackenbügel"
   }
 }

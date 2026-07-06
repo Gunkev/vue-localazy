@@ -1,5 +1,5 @@
 {
-  "name": "vue-localazy",
+  "name": "vue-localazy-demo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,6 +15,7 @@
     "vue-i18n": "^11.2.8"
   },
   "devDependencies": {
+    "@localazy/cli": "^2.0.11",
     "@types/node": "^24.10.1",
     "@vitejs/plugin-vue": "^6.0.2",
     "@vue/tsconfig": "^0.8.1",

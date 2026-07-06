@@ -20,7 +20,8 @@
   },
   "language": {
     "english": "English",
-    "french": "French"
+    "french": "French",
+    "german": "German"
   },
   "debug": {
     "ciTest": "Uploaded from GitHub Actions"
